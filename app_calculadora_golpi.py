@@ -34,7 +34,7 @@ st.caption(f"Detecção automática: Dia {a} do mês {b}")
 if st.button("CALCULAR RESULTADO"):
     resultado = a + b
     
-    with st.spinner('Validando a matemática do golpe...'):
+    with st.spinner('Validando a matemática do golpi...'):
         time.sleep(2)
 
     # CORREÇÃO DA LÓGICA:
