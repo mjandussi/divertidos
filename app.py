@@ -17,10 +17,10 @@ st.markdown("""
 st.title("🧮 Calculadora do Golpi")
 st.write("---")
 
-# Sidebar com informações inúteis
-with st.sidebar:
-    st.info(f"📅 Data de hoje: {datetime.date.today().strftime('%d/%m/%Y')}")
-    st.write("---")
+# # Sidebar com informações inúteis
+# with st.sidebar:
+#     st.info(f"📅 Data de hoje: {datetime.date.today().strftime('%d/%m/%Y')}")
+#     st.write("---")
 
 # Falsos Inputs
 col1, col2 = st.columns(2)
@@ -45,6 +45,7 @@ if st.button("CALCULAR RESULTADO"):
     
         resultado_extenso = num2words(resultado, lang='en').upper()
         st.success("🚨 Cálculo Realizado!")
+        st.info(f"📅 Data de hoje: {datetime.date.today().strftime('%d/%m/%Y')}")
         st.markdown(f'<p class="big-font">{a} + {b} = {resultado_extenso}</p>', unsafe_allow_html=True)
         
     else:
