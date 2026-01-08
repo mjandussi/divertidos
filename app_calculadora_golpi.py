@@ -54,7 +54,7 @@ if st.button("CALCULAR RESULTADO"):
     else:
         # Se for qualquer outra data ou qualquer outro número que não seja 8 e 1
         st.metric(label="Resultado Comum", value=resultado)
-        st.warning("Matemática normal detectada. Sem graça!")
-        st.write("Dica: O golpe só funciona se você somar o dia 8 com o mês 1 no dia de hoje!")
+        st.warning("Matemática normal detectada. Sem golpi!")
+        st.write("Dica: O golpi só funciona se você somar o dia 8 com o mês 1 no dia de golpi!")
 
 st.write("---")
