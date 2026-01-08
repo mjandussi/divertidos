@@ -41,9 +41,6 @@ if st.button("CALCULAR RESULTADO"):
     # Agora verificamos se o dia digitado é 8, o mês é 1 E se hoje é realmente 08/01
     if a == 8 and b == 1 and hoje.day == 8 and hoje.month == 1:
         
-        # 🔊 Gargalhada Automática
-        #st.audio("https://www.myinstants.com/media/sounds/risada-do-bola.mp3", autoplay=True)
-        
         # 🎉 Efeitos Visuais
         st.balloons()
         st.snow()
