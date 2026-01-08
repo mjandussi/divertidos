@@ -47,7 +47,7 @@ if st.button("CALCULAR RESULTADO"):
     
         resultado_extenso = num2words(resultado, lang='en').upper()
         
-        st.success("🚨 Golpe de Mestre Detectado!")
+        st.success("🚨 Golpi Detectado!!")
         st.markdown('<p class="blink">KKKKKKKKKKKKKKKKK!!!! 🤣</p>', unsafe_allow_html=True)
         st.markdown(f'<p class="big-font">{a} + {b} = {resultado_extenso}</p>', unsafe_allow_html=True)
         
