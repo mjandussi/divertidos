@@ -38,10 +38,9 @@ if st.button("CALCULAR RESULTADO"):
         time.sleep(2)
 
     # CORREÇÃO DA LÓGICA:
-    # Agora verificamos se o dia digitado é 8, o mês é 1 E se hoje é realmente 08/01
+    # Agora verificamos se o dia digitado é 8, o mês é 1
     if a == 8 and b == 1:
 
-        
         # 🎉 Efeitos Visuais
         st.balloons()
         st.snow()
